@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/ConnectToOpenStreet/Form1.cs) (VB: [Form1.vb](./VB/ConnectToOpenStreet/Form1.vb))
+<!-- default file list end -->
 # XtraMap Getting Started - Lesson 2 - Connect to OpenStreetMap
 
 
