@@ -19,13 +19,21 @@ namespace ConnectToOpenStreet {
             this.Controls.Add(map);
 
             // Create an image tiles layer and add it to the map.
-            ImageLayer tilesLayer = new ImageLayer();
-            map.Layers.Add(tilesLayer);            
+            ImageLayer tileLayer = new ImageLayer();
+            map.Layers.Add(tileLayer);            
 
             // Create an Open Street data provider.
             OpenStreetMapDataProvider provider = new OpenStreetMapDataProvider();
-            tilesLayer.DataProvider = provider;
+            tileLayer.DataProvider = provider;
 
+            // Specify a template that is used to obtain image tiles. 
+            // provider.TileUriTemplate = "http://{subdomain}.tile.MyCustomOSMProvider.org/{tileLevel}/{tileX}/{tileY}.png";
+
+            provider.WebRequest += OnWebRequest;
+        }
+
+        private void OnWebRequest(object sender, MapWebRequestEventArgs e) {
+            e.UserAgent = "XtraMap Getting Started - Connect to OpenStreetMap";
         }
     }
 }
