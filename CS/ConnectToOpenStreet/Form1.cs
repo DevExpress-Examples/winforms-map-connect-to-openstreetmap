@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Net;
 using System.Windows.Forms;
 using DevExpress.XtraMap;
 
 namespace ConnectToOpenStreet {
     public partial class Form1 : Form {
         public Form1() {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             InitializeComponent();
         }
 
