@@ -29,7 +29,7 @@
 			' 
 			Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
 			Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-			Me.ClientSize = New System.Drawing.Size(284, 262)
+			Me.ClientSize = New System.Drawing.Size(463, 381)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
