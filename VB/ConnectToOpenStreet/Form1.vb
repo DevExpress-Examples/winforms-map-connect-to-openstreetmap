@@ -29,7 +29,7 @@ Namespace ConnectToOpenStreet
 			tileLayer.DataProvider = provider
 
 			' Specify a template that is used to obtain image tiles. 
-			' provider.TileUriTemplate = "http://{subdomain}.tile.MyCustomOSMProvider.org/{tileLevel}/{tileX}/{tileY}.png";
+			provider.TileUriTemplate = "http://{0}.tile.MyCustomOSMProvider.org/{1}/{2}/{3}.png"
 
 			AddHandler provider.WebRequest, AddressOf OnWebRequest
 		End Sub
