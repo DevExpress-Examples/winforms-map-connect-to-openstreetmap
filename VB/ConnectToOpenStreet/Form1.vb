@@ -1,5 +1,4 @@
 ﻿Imports System
-Imports System.Net
 Imports System.Windows.Forms
 Imports DevExpress.XtraMap
 
@@ -8,7 +7,6 @@ Namespace ConnectToOpenStreet
 		Inherits Form
 
 		Public Sub New()
-			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 			InitializeComponent()
 		End Sub
 
