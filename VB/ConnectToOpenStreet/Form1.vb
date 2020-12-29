@@ -1,4 +1,5 @@
 ﻿Imports System
+Imports System.Net
 Imports System.Windows.Forms
 Imports DevExpress.XtraMap
 
@@ -7,6 +8,7 @@ Namespace ConnectToOpenStreet
 		Inherits Form
 
 		Public Sub New()
+			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 			InitializeComponent()
 		End Sub
 
@@ -29,7 +31,7 @@ Namespace ConnectToOpenStreet
 			tileLayer.DataProvider = provider
 
 			' Specify a template that is used to obtain image tiles. 
-			' provider.TileUriTemplate = "http://{subdomain}.tile.MyCustomOSMProvider.org/{tileLevel}/{tileX}/{tileY}.png";
+			provider.TileUriTemplate = "http://{subdomain}.tile.MyCustomOSMProvider.org/{tileLevel}/{tileX}/{tileY}.png"
 
 			AddHandler provider.WebRequest, AddressOf OnWebRequest
 		End Sub
