@@ -5,6 +5,9 @@
 <!-- default file list end -->
 # XtraMap Getting Started - Lesson 2 - Connect to OpenStreetMap
 
+**Specify a valid OSM server name in the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider.TileUriTemplate) property. For instance, you can set your own tile server, use a public OSM server or choose alternative OSM servers. You can find useful information in the [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles) article.**
+
+
 
 <p>This example demonstrates how to connect to the <a href="http://www.openstreetmap.org"><u>OpenStreetMap</u></a>  using the <a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraMapOpenStreetMapDataProvidertopic"><u>OpenStreetMapDataProvider</u></a> object.</p>
 
