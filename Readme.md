@@ -7,6 +7,8 @@
 
 This example uses [OpenStreetMapDataProvider](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider) to connect [Map Control](xref:15074) to the [OpenStreetMap](http://www.openstreetmap.org/) service.
 
+>**IMPORTANT: Specify a valid OSM server name in the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider.TileUriTemplate) property. For instance, you can set your own tile server, use a public OSM server or choose alternative OSM servers. For more information, refer to the following article: [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles).** 
+
 Follow the steps below to display the OpenStreetMap geodata in the Map Control:
 
 * Use the [ServicePointManager.SecurityProtocol](https://docs.microsoft.com/en-us/dotnet/api/system.net.servicepointmanager.securityprotocol?view=net-5.0) property to specify the network security protocol before the [InitializeComponent](https://docs.microsoft.com/en-us/dotnet/api/system.windows.markup.icomponentconnector.initializecomponent?view=net-5.0.) method call.
@@ -19,5 +21,4 @@ Follow the steps below to display the OpenStreetMap geodata in the Map Control:
 
 * Handle the [OpenStreetMapDataProvider.WebRequest](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapImageDataProviderBase.WebRequest) event and use the [e.UserAgent](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapWebRequestEventArgs.UserAgent) property to pass the user-agent HTTP header to the server.
 
->**IMPORTANT: Specify a valid OSM server name in the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider.TileUriTemplate) property. For instance, you can set your own tile server, use a public OSM server or choose alternative OSM servers. For more information, refer to the following article: [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles).** 
 <br/>
