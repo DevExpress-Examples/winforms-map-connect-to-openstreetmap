@@ -7,7 +7,7 @@
 
 **Specify a valid OSM server name in the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider.TileUriTemplate) property. For instance, you can set your own tile server, use a public OSM server or choose alternative OSM servers. For more information, refer to the following article: [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles).**
 
-This example uses [](xref:DevExpress.XtraMap.OpenStreetMapDataProvider) to connect [Map Control](xref:15074) to the [OpenStreetMap](http://www.openstreetmap.org/) service.
+This example uses [OpenStreetMapDataProvider](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider) to connect [Map Control](xref:15074) to the [OpenStreetMap](http://www.openstreetmap.org/) service.
 
 Follow the steps below to display the OpenStreetMap geodata in the Map Control:
 
