@@ -27,6 +27,9 @@ Namespace ConnectToOpenStreet
             ' Create an Open Street data provider.
             Dim provider As New OpenStreetMapDataProvider()
             tilesLayer.DataProvider = provider
+        
+            ' Specify the TileUriTemplate property to connect the Map Control to an OSM server. 
+            provider.TileUriTemplate = "http://{0}.tile.MyCustomOSMProvider.org/{1}/{2}/{3}.png"
 
         End Sub
     End Class
