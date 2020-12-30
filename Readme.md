@@ -5,8 +5,6 @@
 <!-- default file list end -->
 # XtraMap Getting Started - Lesson 2 - Connect to OpenStreetMap
 
-**Specify a valid OSM server name in the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider.TileUriTemplate) property. For instance, you can set your own tile server, use a public OSM server or choose alternative OSM servers. For more information, refer to the following article: [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles).**
-
 This example uses [OpenStreetMapDataProvider](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider) to connect [Map Control](xref:15074) to the [OpenStreetMap](http://www.openstreetmap.org/) service.
 
 Follow the steps below to display the OpenStreetMap geodata in the Map Control:
@@ -20,4 +18,6 @@ Follow the steps below to display the OpenStreetMap geodata in the Map Control:
 * Create an [OpenStreetMapDataProvider](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider) object and assign it to the [ImageLayer.DataProvider](https://docs.devexpress.com/CoreLibraries/DevExpress.Utils.DXCollectionBase-1.Add(-0)) property. Specify the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider.TileUriTemplate) property to load data from an OSM server. Our example contains a sample template string that does not connect to an existing OSM server.   
 
 * Handle the [OpenStreetMapDataProvider.WebRequest](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapImageDataProviderBase.WebRequest) event and use the [e.UserAgent](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapWebRequestEventArgs.UserAgent) property to pass the user-agent HTTP header to the server.
+
+>**IMPORTANT: Specify a valid OSM server name in the [OpenStreetMapDataProvider.TileUriTemplate](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.OpenStreetMapDataProvider.TileUriTemplate) property. For instance, you can set your own tile server, use a public OSM server or choose alternative OSM servers. For more information, refer to the following article: [Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles).** 
 <br/>
