@@ -1,4 +1,4 @@
-﻿Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConnectToOpenStreet", "ConnectToOpenStreet\ConnectToOpenStreet.vbproj", "{E7894573-B4C3-40E3-A43E-F07D9774227E}"
 EndProject
