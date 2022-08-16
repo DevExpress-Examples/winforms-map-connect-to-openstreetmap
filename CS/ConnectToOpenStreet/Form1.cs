@@ -35,7 +35,8 @@ namespace ConnectToOpenStreet {
         }
 
         private void OnWebRequest(object sender, MapWebRequestEventArgs e) {
-            e.UserAgent = "XtraMap Getting Started - Connect to OpenStreetMap";
+            e.UserAgent = "Sample app with OSM tiles";
+            e.Referer = "https://www.mycompanysite.com/";
         }
     }
 }
