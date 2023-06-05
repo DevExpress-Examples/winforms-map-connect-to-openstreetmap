@@ -22,7 +22,7 @@ Follow the steps below to display the OpenStreetMap geodata in the Map Control:
 
 * Handle the [`OpenStreetMapDataProvider.WebRequest`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapImageDataProviderBase.WebRequest) event and specify the [`e.UserAgent`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapWebRequestEventArgs.UserAgent) and [`e.Referer`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapWebRequestEventArgs.Referer?p=netframework) properties in the event handler.
 
-## Files to Look At
+## Files to Review
 
 * [Form1.cs](./CS/ConnectToOpenStreet/Form1.cs) (VB: [Form1.vb](./VB/ConnectToOpenStreet/Form1.vb))
 
