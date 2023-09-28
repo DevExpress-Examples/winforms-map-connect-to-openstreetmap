@@ -29,7 +29,7 @@ namespace ConnectToOpenStreet {
             tileLayer.DataProvider = provider;
 
             // Specify a template that is used to obtain image tiles. 
-            provider.TileUriTemplate = "http://{0}.tile.MyCustomOSMProvider.org/{1}/{2}/{3}.png";
+            provider.TileUriTemplate = "https://{0}.tile.MyCustomOSMProvider.org/{1}/{2}/{3}.png";
 
             provider.WebRequest += OnWebRequest;
         }
