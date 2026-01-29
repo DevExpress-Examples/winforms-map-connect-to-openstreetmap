@@ -25,7 +25,6 @@ Follow the steps below to display the OpenStreetMap geodata in the Map Control:
 
 * Handle the [OpenStreetMapDataProvider.WebRequest](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapImageDataProviderBase.WebRequest) event and use the [e.UserAgent](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapWebRequestEventArgs.UserAgent) property to pass the user-agent HTTP header to the server.
 
-<br/>
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
