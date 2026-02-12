@@ -37,7 +37,7 @@ Follow the steps below to display the OpenStreetMap geodata in the Map Control:
 * [How to: Use the OpenStreetMap Search Service Via the Map Control](https://github.com/DevExpress-Examples/how-to-use-the-openstreetmap-search-service-via-the-map-control-t629598)
 * [How to: Use the OpenStreetMap Geocode Service Via the Map Control](https://github.com/DevExpress-Examples/how-to-use-the-openstreetmap-geocode-service-via-the-map-control-t629683)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-connect-to-openstreetmap&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-connect-to-openstreetmap&~~~was_helpful=no)
 
